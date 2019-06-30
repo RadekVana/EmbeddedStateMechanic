@@ -75,7 +75,6 @@ int main()
   RUN_TEST(State_TransitionWithHandlerTest);
   RUN_TEST(State_TransitionWithGuardTest);
   RUN_TEST(State_TransitionWithGuardAndHandlerTest);
-  printf("MISSING UNIT TESTS OT TEMPLATE METHODS\n");
   
   printf("Transition\n");
   RUN_TEST(TransitionCtorTest);

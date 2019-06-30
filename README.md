@@ -2,12 +2,8 @@
 Embedded C++ implementation of StateMechanic https://github.com/canton7/StateMechanic
 targeted for IAR V850 
 Code was originally created in IAR version 4.X, last changes were made in 5.10
-Project targets an simulator, V850 chip is not needed to run it.
+Project targets the V850 simulator, V850 chip is not needed to run it.
 This project is ment just to show my work
-
-
-*************************************************************************************************************************************
-STILL WORK IN PROGRESS
 
 
 *************************************************************************************************************************************
@@ -33,3 +29,25 @@ HOW TO RUN THE CODE
 6) click on green arrow or "Ctrl+D" to run debugger 
 7) Click View -> Terminal I/O to see program output
 8) Click GO arrow or F5 to run the code
+
+
+*************************************************************************************************************************************
+MISSING THINGS - STILL WORK IN PROGRESS
+*	CHILD STATE MACHINES 
+
+*	UNIT TESTS OF STATE TEMPLATE METHODS
+*	UNIT TESTS OF TRANSITION GUARDS
+
+
+
+*************************************************************************************************************************************
+NOT IMPLEMENTED THINGS:
+*	Event.Fire() method (due no exception handling), only Event.TryFire() can be used
+*	Serializatoin or printing state machine 
+*	Names of objects (so they can be much smaller) 
+*	Forced fransitions. They are very unclean. I do not think they are needed at all.
+ 
+*************************************************************************************************************************************
+NON ESSENCIAL FUNCTIONALITY THAT COULD BE IMPLEMENTED IN FUTURE 
+*	Dynamic Transitions
+*	STATE GROUPS 

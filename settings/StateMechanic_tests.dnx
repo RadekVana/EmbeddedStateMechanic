@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <settings>
+    <DebugChecksum>
+        <Checksum>2002705810</Checksum>
+    </DebugChecksum>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
     <Stack>
         <FillEnabled>0</FillEnabled>
         <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
@@ -11,32 +17,13 @@
         <LimitSize>0</LimitSize>
         <ByteLimit>50</ByteLimit>
     </Stack>
-    <DebugChecksum>
-        <Checksum>3740891216</Checksum>
-    </DebugChecksum>
-    <CodeCoverage>
-        <Enabled>_ 0</Enabled>
-    </CodeCoverage>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
     <Disassembly>
         <InstrCount>0</InstrCount>
         <MixedMode>1</MixedMode>
     </Disassembly>
-    <InterruptStripe>
-        <Sort>0</Sort>
-    </InterruptStripe>
-    <watch_formats>
-        <Fmt0>{W}1:StateA	3	0</Fmt0>
-        <Fmt1>{W}1:StateB	3	0</Fmt1>
-        <Fmt2>{W}1:StateC	3	0</Fmt2>
-    </watch_formats>
-    <Log_file>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </Log_file>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -51,8 +38,8 @@
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
     <TermIOLog>
-        <LoggingEnabled>_ 1</LoggingEnabled>
-        <LogFile>_ "$PROJ_DIR$\TermIO.log"</LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
     </TermIOLog>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
@@ -75,13 +62,7 @@
         <ShowTimeSum>1</ShowTimeSum>
     </DataLog>
     <Breakpoints2>
-        <Bp0>_ 0 "STD_CODE2" "{$PROJ_DIR$\StateMechanic\StateMechanic.cpp}.123.3" 0 0 1 "" 0 ""</Bp0>
-        <Bp1>_ 0 "STD_CODE2" "{$PROJ_DIR$\StateMechanic\StateMechanic.cpp}.188.8" 0 0 1 "" 0 ""</Bp1>
-        <Bp2>_ 0 "STD_CODE2" "{$PROJ_DIR$\StateMechanic\StateMechanic.cpp}.188.8" 0 0 1 "" 0 ""</Bp2>
-        <Bp3>_ 0 "STD_CODE2" "{$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.cpp}.302.9" 0 0 1 "" 0 ""</Bp3>
-        <Bp4>_ 0 "STD_CODE2" "{$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.cpp}.29.24" 0 0 1 "" 0 ""</Bp4>
-        <Bp5>_ 0 "STD_CODE2" "{$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.cpp}.89.3" 0 0 1 "" 0 ""</Bp5>
-        <Count>6</Count>
+        <Count>0</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>

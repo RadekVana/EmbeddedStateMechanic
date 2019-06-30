@@ -1,20 +1,12 @@
 /*******************************************************************************
-DESCRIPTION:
-  --
+CREATED: 29.05.2019, by Vana Radek
 
-CREATED: 23.05.2019, by vana
+DESCRIPTION:
 Inspired by https://github.com/canton7/StateMechanic
 But much lighter version unlike original I do not use names in constreuctor - need to save RAM  
 targetted for IAR compilled V850 Extended Embedded c++ 
   == no namespaces no exceptions and c++03 and some other limitations
 
-please do not inherit State, SourceEventTarget
-there is no way in c++03 to disable inheritance
-this clases does not have virtual destructors (to be smaller)
-
-//original implementation has transitions inside states
-//my implementation has transitions inside events 
-//I store them in vectors and can have fewer vectors this way - it saves lot of RAM
 
 FILE: StateMechanic.h
 *******************************************************************************/

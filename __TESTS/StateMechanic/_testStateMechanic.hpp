@@ -2,7 +2,7 @@
 #define __TESTSTATEMECHANIC_HPP
 
 //integration tests of state machine
-//https://github.com/canton7/StateMechanic#exceptions-and-faulting
+//https://github.com/canton7/StateMechanic
 
 
 
