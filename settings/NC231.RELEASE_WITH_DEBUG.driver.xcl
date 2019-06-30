@@ -1,0 +1,15 @@
+ -B 
+
+"-v11" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\v850\CONFIG\DDF\io70f3377.ddf" 
+
+"-d" 
+
+"sim" 
+
+
+
+
