@@ -286,8 +286,9 @@ void StateMechanic_TransitionGuardsWithData(){
 void StateMechanic_RecursiveTransition(){
   UnityBegin(__FILE__); 
  
-  //erase logging vector
+  //erase logging vectors
   LoggingEvHandler::dataFromTests.clear();  
+  TestEvHandlerFireingAnEv::calls.clear();
   
   // create a state machine. 
   StateMachine stateMachine;
@@ -372,6 +373,10 @@ void StateMechanic_RecursiveTransition(){
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  LoggingEvHandler::dataFromTests[pos].AddrTo);
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), LoggingEvHandler::dataFromTests[pos].AddrEv);  
+ 
+  //free memory alocated by vectors so memtest does not get confused
+  LoggingEvHandler::dataFromTests.clear();  
+  TestEvHandlerFireingAnEv::calls.clear();
 }
 
 void StateMechanic_RecursiveTransition_allButFirstFiredAtOnce(){
@@ -458,4 +463,7 @@ void StateMechanic_RecursiveTransition_allButFirstFiredAtOnce(){
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  LoggingEvHandler::dataFromTests[pos].AddrTo);
   TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), LoggingEvHandler::dataFromTests[pos].AddrEv);  
+  
+  //free memory alocated by vector so memtest does not get confused
+  LoggingEvHandler::dataFromTests.clear();
 }

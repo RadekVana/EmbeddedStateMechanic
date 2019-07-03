@@ -1082,6 +1082,12 @@
     <group>
         <name>__TESTS</name>
         <group>
+            <name>MemoryTest</name>
+            <file>
+                <name>$PROJ_DIR$\__TESTS\MemoryTest\memTest.cpp</name>
+            </file>
+        </group>
+        <group>
             <name>StateMechanic</name>
             <group>
                 <name>Event</name>

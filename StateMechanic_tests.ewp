@@ -310,6 +310,7 @@
                     <state>$PROJ_DIR$\__TESTS\StateMechanic\State\</state>
                     <state>$PROJ_DIR$\__TESTS\StateMechanic\Transition\</state>
                     <state>$PROJ_DIR$\__TESTS\StateMechanic\TransitionGuards\</state>
+                    <state>$PROJ_DIR$\__TESTS\MemoryTest\</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -598,7 +599,7 @@
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>NC232_tests.d85</state>
+                    <state>StateMechanic_tests.d85</state>
                 </option>
                 <option>
                     <name>OutputFormat</name>
@@ -768,7 +769,7 @@
                 </option>
                 <option>
                     <name>ExtraOutputFile</name>
-                    <state>NC232_tests.a85</state>
+                    <state>StateMechanic_tests.a85</state>
                 </option>
                 <option>
                     <name>ExtraOutputFormat</name>
@@ -900,6 +901,12 @@
     </configuration>
     <group>
         <name>__TESTS</name>
+        <group>
+            <name>MemoryTest</name>
+            <file>
+                <name>$PROJ_DIR$\__TESTS\MemoryTest\memTest.cpp</name>
+            </file>
+        </group>
         <group>
             <name>StateMechanic</name>
             <group>

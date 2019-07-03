@@ -4,6 +4,7 @@
 
 
 #include "unity.h"
+#include "memTest.hpp"
 
 #include "_testStateMechanic.hpp"
 #include "_testAbstractEvents.hpp"
@@ -19,8 +20,7 @@ int main()
 {
   //to see in log file
   printf("TESTING STARTED: %s %s\n",__DATE__,__TIME__);
-  
- 
+   
   printf("Unit tests\n");
   printf("Events\n");
   RUN_TEST(AbstractEventTest);
@@ -30,6 +30,7 @@ int main()
   RUN_TEST(EventTestDouble);
   RUN_TEST(EventTestString);
   RUN_TEST(EventTestStruct);
+  RUN_TEST(DynMemTest);
   
   printf("Event handlerss\n");
   RUN_TEST(EvHandlerCloneTest);   
@@ -44,6 +45,7 @@ int main()
   RUN_TEST(EvHandlerDataTestBool); 
   RUN_TEST(EvHandlerDataTestString); 
   RUN_TEST(EvHandlerDataTestStruct); 
+  RUN_TEST(DynMemTest);
   
   printf("Info\n");
   RUN_TEST(IinfoTest); 
@@ -52,6 +54,7 @@ int main()
   RUN_TEST(InfoTestDouble); 
   RUN_TEST(InfoTestString); 
   RUN_TEST(InfoTestStruct); 
+  RUN_TEST(DynMemTest);
   
   printf("FiredData\n");
   RUN_TEST(FiredDataCloneTest); 
@@ -66,6 +69,7 @@ int main()
   RUN_TEST(FiredData_DataTestBool); 
   RUN_TEST(FiredData_DataTestString); 
   RUN_TEST(FiredData_DataTestStruct); 
+  RUN_TEST(DynMemTest);
   
   printf("State\n");
   RUN_TEST(IStateTest);
@@ -75,12 +79,14 @@ int main()
   RUN_TEST(State_TransitionWithHandlerTest);
   RUN_TEST(State_TransitionWithGuardTest);
   RUN_TEST(State_TransitionWithGuardAndHandlerTest);
+  RUN_TEST(DynMemTest);
   
   printf("Transition\n");
   RUN_TEST(TransitionCtorTest);
   RUN_TEST(InnerTransitionCtorTest);
   RUN_TEST(TransitionSourceInfoTest);
   RUN_TEST(TransitionAsigmentTest);
+  RUN_TEST(DynMemTest);
   
   printf("Integration tests\n");
   printf("State mechanic\n");
@@ -88,9 +94,14 @@ int main()
   RUN_TEST(StateMechanic_InnerSelfTransitions);
   RUN_TEST(StateMechanic_EventData);
   RUN_TEST(StateMechanic_TransitionGuards);
+  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_TransitionGuardsWithData);
+  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_RecursiveTransition);
+  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_RecursiveTransition_allButFirstFiredAtOnce);
+  RUN_TEST(DynMemTest);
+  
   printf("****************\n");
   printf("Testing finished\n");
   printf("****************\n");
