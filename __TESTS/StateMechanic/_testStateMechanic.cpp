@@ -286,9 +286,9 @@ void StateMechanic_TransitionGuardsWithData(){
 void StateMechanic_RecursiveTransition(){
   UnityBegin(__FILE__); 
  
-  //erase logging vectors
-  LoggingEvHandler::dataFromTests.clear();  
-  TestEvHandlerFireingAnEv::calls.clear();
+  //logging vectors
+  vector<TestData>      DataFromTests;
+  vector<int>           Calls;
   
   // create a state machine. 
   StateMachine stateMachine;
@@ -305,12 +305,12 @@ void StateMechanic_RecursiveTransition(){
   Event eventC;
   Event eventD;
   
-  auto_ptr<EvHandler> toC (new TestEvHandlerFireingAnEv (eventB,0));
-  auto_ptr<EvHandler> toD (new TestEvHandlerFireingAnEv (eventC,1));
-  auto_ptr<EvHandler> toE (new TestEvHandlerFireingAnEv (eventD,2));
+  auto_ptr<EvHandler> toC (new TestEvHandlerFireingAnEv (eventB,0,Calls));
+  auto_ptr<EvHandler> toD (new TestEvHandlerFireingAnEv (eventC,1,Calls));
+  auto_ptr<EvHandler> toE (new TestEvHandlerFireingAnEv (eventD,2,Calls));
   
-  auto_ptr<EvHandler> trEv (new LoggingEvHandler ("transition"));
-  auto_ptr<EvHandler> erEv (new LoggingEvHandler ("transition not found"));
+  auto_ptr<EvHandler> trEv (new LoggingEvHandler ("transition",DataFromTests));
+  auto_ptr<EvHandler> erEv (new LoggingEvHandler ("transition not found",DataFromTests));
   stateMachine.SinkTransitionEv(trEv);
   stateMachine.SinkTransitionNotFoundEv(erEv);
   
@@ -339,51 +339,47 @@ void StateMechanic_RecursiveTransition(){
 
   //3 handlers were used
   //toC toD and toE
-  TEST_ASSERT_EQUAL_UINT32(3,TestEvHandlerFireingAnEv::calls.size());
-  for (size_t i = 0; i < TestEvHandlerFireingAnEv::calls.size(); ++i)
-    TEST_ASSERT_EQUAL_UINT32(i,TestEvHandlerFireingAnEv::calls[i]);
+  TEST_ASSERT_EQUAL_UINT32(3,Calls.size());
+  for (size_t i = 0; i < Calls.size(); ++i)
+    TEST_ASSERT_EQUAL_UINT32(i,Calls[i]);
   
   //4 transitions in total
-  TEST_ASSERT_EQUAL_UINT32(4,LoggingEvHandler::dataFromTests.size());
-  for (size_t i = 0; i < LoggingEvHandler::dataFromTests.size(); ++i){
+  TEST_ASSERT_EQUAL_UINT32(4,DataFromTests.size());
+  for (size_t i = 0; i < DataFromTests.size(); ++i){
     //name must be transition
-    TEST_ASSERT_EQUAL_STRING("transition",LoggingEvHandler::dataFromTests[i].HandlerName.c_str());
+    TEST_ASSERT_EQUAL_STRING("transition",DataFromTests[i].HandlerName.c_str());
   }  
   
   //from StateA to StateB over eventA  
   size_t pos = 0;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateA),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventA), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateA),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventA), DataFromTests[pos].AddrEv);
   
   //from StateB to StateC over eventB  
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventB), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventB), DataFromTests[pos].AddrEv);
 
   //from StateC to StateD over eventC 
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventC), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventC), DataFromTests[pos].AddrEv);
 
   //from StateD to StateE over eventD  
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), LoggingEvHandler::dataFromTests[pos].AddrEv);  
- 
-  //free memory alocated by vectors so memtest does not get confused
-  LoggingEvHandler::dataFromTests.clear();  
-  TestEvHandlerFireingAnEv::calls.clear();
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), DataFromTests[pos].AddrEv);  
 }
 
 void StateMechanic_RecursiveTransition_allButFirstFiredAtOnce(){
   UnityBegin(__FILE__); 
   
-  //erase logging vector
-  LoggingEvHandler::dataFromTests.clear();
+  //logging vectors
+  vector<TestData> DataFromTests;
   
   // create a state machine. 
   StateMachine stateMachine;
@@ -408,8 +404,8 @@ void StateMechanic_RecursiveTransition_allButFirstFiredAtOnce(){
   ptrToInit->AddEv(eventD);
   auto_ptr<EvHandler> FireAllHandler (ptrToInit);
   
-  auto_ptr<EvHandler> trEv (new LoggingEvHandler ("transition"));
-  auto_ptr<EvHandler> erEv (new LoggingEvHandler ("transition not found"));
+  auto_ptr<EvHandler> trEv (new LoggingEvHandler ("transition",DataFromTests));
+  auto_ptr<EvHandler> erEv (new LoggingEvHandler ("transition not found",DataFromTests));
   stateMachine.SinkTransitionEv(trEv);
   stateMachine.SinkTransitionNotFoundEv(erEv);
   
@@ -434,36 +430,33 @@ void StateMechanic_RecursiveTransition_allButFirstFiredAtOnce(){
 
   
   //4 transitions in total
-  TEST_ASSERT_EQUAL_UINT32(4,LoggingEvHandler::dataFromTests.size());
-  for (size_t i = 0; i < LoggingEvHandler::dataFromTests.size(); ++i){
+  TEST_ASSERT_EQUAL_UINT32(4,DataFromTests.size());
+  for (size_t i = 0; i < DataFromTests.size(); ++i){
     //name must be transition
-    TEST_ASSERT_EQUAL_STRING("transition",LoggingEvHandler::dataFromTests[i].HandlerName.c_str());
+    TEST_ASSERT_EQUAL_STRING("transition",DataFromTests[i].HandlerName.c_str());
   }  
   
   //from StateA to StateB over eventA  
   size_t pos = 0;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateA),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventA), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateA),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventA), DataFromTests[pos].AddrEv);
   
   //from StateB to StateC over eventB  
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventB), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateB),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventB), DataFromTests[pos].AddrEv);
 
   //from StateC to StateD over eventC 
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventC), LoggingEvHandler::dataFromTests[pos].AddrEv);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateC),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventC), DataFromTests[pos].AddrEv);
 
   //from StateD to StateE over eventD  
   ++pos;
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  LoggingEvHandler::dataFromTests[pos].AddrFrom);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  LoggingEvHandler::dataFromTests[pos].AddrTo);
-  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), LoggingEvHandler::dataFromTests[pos].AddrEv);  
-  
-  //free memory alocated by vector so memtest does not get confused
-  LoggingEvHandler::dataFromTests.clear();
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateD),  DataFromTests[pos].AddrFrom);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(StateE),  DataFromTests[pos].AddrTo);
+  TEST_ASSERT_EQUAL_UINT32(reinterpret_cast<uint32_t>(&eventD), DataFromTests[pos].AddrEv);  
 }

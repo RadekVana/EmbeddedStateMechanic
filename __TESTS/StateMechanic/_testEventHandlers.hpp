@@ -40,10 +40,10 @@ class TestEvHandlerFireingAnEv: public EvHandler{
   Event &ev;
   int _ID;
 public:
-  TestEvHandlerFireingAnEv(Event& e, int ID):ev(e),_ID(ID){}
+  TestEvHandlerFireingAnEv(Event& e, int ID, vector<int>& calls):ev(e),_ID(ID),Calls(calls){}
   virtual void operator()(auto_ptr<Iinfo> info);
   virtual auto_ptr<IEvHandler> Clone();
-  static vector<int> calls;
+  vector<int>& Calls;
 };
 
 /******************************************************************************/
@@ -74,11 +74,11 @@ struct TestData{
 class LoggingEvHandler: public EvHandler{
   string name;
 public:
-  LoggingEvHandler(const char* txt):name(txt){}
+  LoggingEvHandler(const char* txt, vector<TestData>& dataFromTests):name(txt),DataFromTests(dataFromTests){}
   virtual void operator()(auto_ptr<Iinfo> info);
   virtual auto_ptr<IEvHandler> Clone();
   
-  static vector<TestData> dataFromTests;
+  vector<TestData>& DataFromTests;
 };
 
 #endif

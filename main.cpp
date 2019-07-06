@@ -94,11 +94,8 @@ int main()
   RUN_TEST(StateMechanic_InnerSelfTransitions);
   RUN_TEST(StateMechanic_EventData);
   RUN_TEST(StateMechanic_TransitionGuards);
-  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_TransitionGuardsWithData);
-  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_RecursiveTransition);
-  RUN_TEST(DynMemTest);
   RUN_TEST(StateMechanic_RecursiveTransition_allButFirstFiredAtOnce);
   RUN_TEST(DynMemTest);
   

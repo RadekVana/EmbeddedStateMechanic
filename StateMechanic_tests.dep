@@ -5,370 +5,398 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\__TESTS\MemoryTest\memTest.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockEvent.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockEvHandler.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\EvHandler\_testEvHandler.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.cpp</file>
             <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testAbstractEvents.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockFullEvent.hpp</file>
-            <file>$PROJ_DIR$\Debug\List\_testStateMechanic.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\unity.r85</file>
-            <file>$PROJ_DIR$\My_utils\MySorting_T.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testFiredData.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\ichooser</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEvHandler.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\Event.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.pbi</file>
-            <file>$TOOLKIT_DIR$\config\lnk70f3375.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Event.__cstat.et</file>
-            <file>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</file>
-            <file>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.hpp</file>
-            <file>$PROJ_DIR$\Debug\List\AbstractEvents.i</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testTransitionGuards.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\streambuf</file>
-            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.r85</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\My_src\__SPECIAL_CHARACTERS.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransition.pbi</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.hpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\unity.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\tgmath.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SmartEnum.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyFunctionoid.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testJednotky.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$PROJ_DIR$\Debug\List\MyMaps.i</file>
-            <file>$PROJ_DIR$\__Unity\UnityAddin.h</file>
-            <file>$PROJ_DIR$\My_src\StavySerioveKomunikace.h</file>
-            <file>$PROJ_DIR$\Debug\List\_testState.i</file>
-            <file>$PROJ_DIR$\Regul\ILimUpdater.h</file>
-            <file>$PROJ_DIR$\Debug\List\MyMath.i</file>
-            <file>$PROJ_DIR$\Debug\List\MyJednotky.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\UnityAddin.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.r85</file>
-            <file>$PROJ_DIR$\Debug\List\MyJednotky_templates.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyEventHandler_T.pbi</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.hpp</file>
-            <file>$PROJ_DIR$\Debug\List\SmartEnum.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testInfo.r85</file>
-            <file>$PROJ_DIR$\My_src\MyInputs_templates.c</file>
-            <file>$PROJ_DIR$\Debug\List\_testInfo.i</file>
-            <file>$PROJ_DIR$\Debug\List\main.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.r85</file>
-            <file>$TOOLKIT_DIR$\inc\c\complex.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\queue</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.r85</file>
-            <file>$PROJ_DIR$\_preinclude\preinclude.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testInfo.__cstat.et</file>
-            <file>$PROJ_DIR$\My_utils\MyMaps.c</file>
-            <file>$PROJ_DIR$\SPI\MySPI.h</file>
-            <file>$PROJ_DIR$\Debug\List\_testEventTemplates.i</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testAbstractEvents.hpp</file>
-            <file>$PROJ_DIR$\My_src\MyInputs.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.pbi</file>
+            <file>$PROJ_DIR$\__TESTS\MemoryTest\memTest.cpp</file>
             <file>$PROJ_DIR$\Debug\List\Event.i</file>
-            <file>$PROJ_DIR$\UnitTypes\MyJednotky_assign.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyMath.r85</file>
-            <file>$PROJ_DIR$\Debug\List\unity.i</file>
-            <file>$PROJ_DIR$\UnitTypes\MyJednotky.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.pbi</file>
-            <file>$PROJ_DIR$\__Unity\unity.h</file>
-            <file>$PROJ_DIR$\__Unity\MisraC.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\istream</file>
-            <file>$PROJ_DIR$\Debug\List\_testPrintClass.i</file>
             <file>$PROJ_DIR$\My_utils\MyMath_templates.c</file>
+            <file>$PROJ_DIR$\Debug\List\_testEventTemplates.i</file>
+            <file>$PROJ_DIR$\__Unity\MisraC.h</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\xstddef</file>
             <file>$PROJ_DIR$\Debug\Obj\SmartEnum.__cstat.et</file>
+            <file>$PROJ_DIR$\My_src\MyInputs.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\queue</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\iutility</file>
             <file>$PROJ_DIR$\Debug\Obj\_testEventTemplates.pbi</file>
             <file>$PROJ_DIR$\Debug\List\State.i</file>
-            <file>$PROJ_DIR$\Debug\List\_testTransition.i</file>
             <file>$PROJ_DIR$\My_utils\MyEventHandler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testInfo.__cstat.et</file>
+            <file>$PROJ_DIR$\UnitTypes\MyJednotky.c</file>
+            <file>$PROJ_DIR$\Debug\List\_testTransition.i</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\new</file>
-            <file>$PROJ_DIR$\My_utils\string2string.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.r85</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xiosbase</file>
-            <file>$PROJ_DIR$\Debug\List\MySorting.i</file>
-            <file>$PROJ_DIR$\StateMechanic\EvHandler.hpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xdebug</file>
+            <file>$PROJ_DIR$\__Unity\unity.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\complex.h</file>
+            <file>$PROJ_DIR$\SPI\MySPI.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyMath.r85</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testAbstractEvents.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\unity.i</file>
+            <file>$PROJ_DIR$\UnitTypes\MyJednotky_assign.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.pbi</file>
+            <file>$PROJ_DIR$\_preinclude\preinclude.h</file>
+            <file>$PROJ_DIR$\My_utils\MyMaps.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\istream</file>
+            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\_testPrintClass.i</file>
+            <file>$PROJ_DIR$\Debug\List\MyMath.i</file>
+            <file>$PROJ_DIR$\Debug\List\MyJednotky.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\UnityAddin.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\List\SmartEnum.i</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\_testInfo.i</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransition.pbi</file>
+            <file>$PROJ_DIR$\Regul\ILimUpdater.h</file>
+            <file>$PROJ_DIR$\My_src\__SPECIAL_CHARACTERS.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\List\MyJednotky_templates.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyEventHandler_T.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SmartEnum.r85</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testInfo.r85</file>
+            <file>$PROJ_DIR$\Debug\List\MyMaps.i</file>
+            <file>$PROJ_DIR$\My_src\MyInputs_templates.c</file>
+            <file>$PROJ_DIR$\Debug\List\main.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\tgmath.h</file>
+            <file>$PROJ_DIR$\My_src\StavySerioveKomunikace.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyFunctionoid.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\unity.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\streambuf</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testJednotky.__cstat.et</file>
+            <file>$PROJ_DIR$\__Unity\UnityAddin.h</file>
+            <file>$PROJ_DIR$\Debug\List\_testState.i</file>
             <file>$PROJ_DIR$\Debug\Obj\_testEvHandler.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xtree</file>
-            <file>$PROJ_DIR$\My_utils\MyMath.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\sstream</file>
-            <file>$PROJ_DIR$\Debug\List\MyFixPoint.i</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\iterator</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.hpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEventHandlers.pbi</file>
-            <file>$PROJ_DIR$\Debug\List\preinclude.i</file>
-            <file>$PROJ_DIR$\Debug\List\_testTransitionGuards.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\MockInfo.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\MySorting.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransition.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testFiredData.r85</file>
-            <file>$PROJ_DIR$\applilet2_src\serial.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\utility</file>
             <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
             <file>$PROJ_DIR$\My_utils\MyFixPoint.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\iterator</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xtree</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.hpp</file>
+            <file>$PROJ_DIR$\My_utils\string2string.h</file>
+            <file>$PROJ_DIR$\StateMechanic\EvHandler.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xdebug</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEventHandlers.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\preinclude.i</file>
+            <file>$PROJ_DIR$\Debug\List\MySorting.i</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xiosbase</file>
+            <file>$PROJ_DIR$\My_utils\MyMath.h</file>
+            <file>$PROJ_DIR$\Debug\List\_testTransitionGuards.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MySorting.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.r85</file>
+            <file>$PROJ_DIR$\applilet2_src\serial.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\utility</file>
+            <file>$PROJ_DIR$\Debug\Obj\MockInfo.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\sstream</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransition.r85</file>
             <file>$PROJ_DIR$\applilet2_src\timer.h</file>
             <file>$PROJ_DIR$\Debug\Obj\MyFunctionoid.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testFiredData.r85</file>
             <file>$PROJ_DIR$\StateMechanic\Transition\Transition.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\ITransition.hpp</file>
-            <file>$PROJ_DIR$\Regul\MyStavyRegulace.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\MyFixPoint.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEvents.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyMaps.pbi</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testTransitionGuards.cpp</file>
+            <file>$PROJ_DIR$\Debug\List\_testEvents.i</file>
+            <file>$PROJ_DIR$\My_utils\MyJednotky_templates.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl85nn1.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEvents.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEventHandlers.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\MyEventHandler_T.i</file>
             <file>$PROJ_DIR$\Debug\Obj\State.r85</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\exception</file>
             <file>$PROJ_DIR$\StateMechanic\Event.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
-            <file>$PROJ_DIR$\Regul\LIM_struct.h</file>
-            <file>$PROJ_DIR$\Debug\List\_testEvents.i</file>
+            <file>$PROJ_DIR$\Regul\MyStavyRegulace.h</file>
             <file>$PROJ_DIR$\Debug\List\MyJednotky_assign.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEvents.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEvents.__cstat.et</file>
+            <file>$PROJ_DIR$\Regul\LIM_struct.h</file>
             <file>$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.hpp</file>
-            <file>$PROJ_DIR$\My_utils\SmartEnum.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEventHandlers.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl85nn1.h</file>
-            <file>$PROJ_DIR$\Debug\List\MyEventHandler_T.i</file>
+            <file>$PROJ_DIR$\StateMechanic\ITransition.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\MockInfo.r85</file>
+            <file>$PROJ_DIR$\Debug\List\Transition.i</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\deque</file>
             <file>$PROJ_DIR$\Debug\Obj\preinclude.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\map</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\My_utils\SmartEnum.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\xmemory</file>
             <file>$PROJ_DIR$\StateMechanic\Transition\AbstractTransition.hpp</file>
             <file>$TOOLKIT_DIR$\inc\c\climits</file>
             <file>$PROJ_DIR$\My_src\MyOLED.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MockInfo.r85</file>
-            <file>$PROJ_DIR$\Debug\List\Transition.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyMaps.pbi</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testTransitionGuards.cpp</file>
-            <file>$PROJ_DIR$\My_utils\MyJednotky_templates.c</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\deque</file>
-            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\map</file>
-            <file>$PROJ_DIR$\StateMechanic\State.cpp</file>
-            <file>$PROJ_DIR$\__Unity\Unity.c</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\ios</file>
-            <file>$PROJ_DIR$\StateMechanic\Transition.cpp</file>
-            <file>$PROJ_DIR$\Debug\List\_testJednotky.i</file>
-            <file>$PROJ_DIR$\My_utils\MySorting.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SmartEnum.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\AbstractEvents.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\cctype</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testJednotky.pbi</file>
-            <file>$PROJ_DIR$\My_src\MyTimer.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\cstdarg</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.r85</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\ostream</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\stdexcept</file>
-            <file>$PROJ_DIR$\UnitTypes\MyJednotky_assign.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\UnityAddin.r85</file>
-            <file>$PROJ_DIR$\Debug\List\_testAbstractEvents.i</file>
-            <file>$TOOLKIT_DIR$\inc\io70f3377_ext.h</file>
-            <file>$PROJ_DIR$\StateMechanic\IState.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\iosfwd</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\cstddef</file>
-            <file>$PROJ_DIR$\My_src\MyTaskClass.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl85nn1.r85</file>
-            <file>$PROJ_DIR$\My_src\MyMutex.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
-            <file>$PROJ_DIR$\My_utils\MyFixPoint.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.__cstat.et</file>
-            <file>$PROJ_DIR$\StateMechanic\StateMechanic.hpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\unity.__cstat.et</file>
-            <file>$PROJ_DIR$\My_src\MyDigIO.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\memory</file>
-            <file>$PROJ_DIR$\My_src\SerialCommands.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEventTemplates.r85</file>
-            <file>$TOOLKIT_DIR$\inc\io70f3377.h</file>
-            <file>$PROJ_DIR$\StateMechanic\IStateWithMachineRef.hpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.pbi</file>
-            <file>$PROJ_DIR$\applilet2_src\macrodriver.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\StateMechanic\State\State.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xutility</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testState.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
             <file>$PROJ_DIR$\StateMechanic\Event.cpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\State\IState.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStateMachine.hpp</file>
-            <file>$PROJ_DIR$\My_utils\MySorting.c</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.cpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\EventTemplate.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockTransition.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.cpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockState.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Info\IInfo.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Info\InfoTemplate.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStateWithMachineRef.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.cpp</file>
-            <file>$PROJ_DIR$\Unity-master\src\unity.h</file>
-            <file>$PROJ_DIR$\My_utils\SmartEnum.c</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.cpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\Event.cpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\IEvent.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\EvHandler\EvHandler.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\EvHandler\IEvHandler.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Info\IFiredData.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStruct.hpp</file>
-            <file>$PROJ_DIR$\My_utils\MyFunctionoid.c</file>
-            <file>$PROJ_DIR$\Unity-master\src\unity_internals.h</file>
-            <file>$PROJ_DIR$\_preinclude\preinclude.c</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockInfo.cpp</file>
-            <file>$PROJ_DIR$\Unity-master\src\unity.c</file>
-            <file>$PROJ_DIR$\StateMechanic\Info\FiredData.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.cpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Transition\ITransition.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Transition\Transition.cpp</file>
-            <file>$PROJ_DIR$\main.cpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyMaps.r85</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\iomanip</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyMaps.r85</file>
             <file>$PROJ_DIR$\Debug\Obj\_testFiredData.pbi</file>
-            <file>$PROJ_DIR$\StateMechanic\State\State.cpp</file>
-            <file>$PROJ_DIR$\My_src\MyDrhnutiDiag.h</file>
             <file>$PROJ_DIR$\Debug\Obj\MyMath.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testInfo.pbi</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\string</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\ITransitionGuard.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\StateMechanic.cpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\MySorting.pbi</file>
-            <file>$PROJ_DIR$\My_src\MySpiInputs.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\UnitTypes\MyJednotky.h</file>
             <file>$TOOLKIT_DIR$\inc\c\cstring</file>
-            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\TransitionGuard.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\TransitionGuardTemplate.hpp</file>
+            <file>$PROJ_DIR$\My_src\MySpiInputs.h</file>
             <file>$PROJ_DIR$\My_HW\MyAdc.h</file>
             <file>$PROJ_DIR$\Regul\MyStavyDorazu.h</file>
-            <file>$PROJ_DIR$\My_utils\MyMath.c</file>
-            <file>$PROJ_DIR$\StateMechanic\State\IStateWithMachineRef.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.hpp</file>
-            <file>$PROJ_DIR$\My_utils\MyFunctionoid.h</file>
-            <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Event.r85</file>
-            <file>$TOOLKIT_DIR$\inc\c\cstdlib</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\StateMechanic\Transition\AbstractTransition.cpp</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Exe\NC232_tests.d85</file>
-            <file>$PROJ_DIR$\Debug\Obj\Transition.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testState.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\preinclude.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.__cstat.et</file>
-            <file>$PROJ_DIR$\StateMechanic\IStateMachine.hpp</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockTransitionGuards.hpp</file>
-            <file>$PROJ_DIR$\StateMechanic\Transition.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
-            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEventTemplates.cpp</file>
-            <file>$PROJ_DIR$\Debug\List\StateMechanic.i</file>
-            <file>$PROJ_DIR$\Debug\List\_testEvHandler.i</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEvents.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\Transition.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.__cstat.et</file>
-            <file>$PROJ_DIR$\My_utils\MyMutex.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.r85</file>
-            <file>$PROJ_DIR$\StateMechanic\IEvent.hpp</file>
-            <file>$PROJ_DIR$\My_src\MyLed.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testState.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\cstdio</file>
-            <file>$PROJ_DIR$\Debug\Obj\AbstractEvents.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testEvHandler.r85</file>
-            <file>$PROJ_DIR$\My_src\Base128_4.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\preinclude.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\Transition.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\SPI\LedDriver_SPI.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\functional</file>
-            <file>$PROJ_DIR$\Debug\Obj\MySorting.r85</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyMaps.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xstring</file>
-            <file>$PROJ_DIR$\HeinzmannFb\Filters.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\memory</file>
+            <file>$PROJ_DIR$\Debug\Obj\MySorting.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\UnitTypes\MyJednotky.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\io70f3377.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testState.__cstat.et</file>
+            <file>$PROJ_DIR$\applilet2_src\macrodriver.h</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.hpp</file>
+            <file>$PROJ_DIR$\My_src\MyDigIO.h</file>
+            <file>$PROJ_DIR$\My_src\MyDrhnutiDiag.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testInfo.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEventTemplates.r85</file>
+            <file>$PROJ_DIR$\My_src\SerialCommands.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyFixPoint.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xutility</file>
+            <file>$PROJ_DIR$\StateMechanic\IStateWithMachineRef.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\State\State.hpp</file>
+            <file>$PROJ_DIR$\My_utils\MyFixPoint.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\StateMechanic.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\_testAbstractEvents.i</file>
+            <file>$TOOLKIT_DIR$\inc\io70f3377_ext.h</file>
+            <file>$PROJ_DIR$\My_src\MyTimer.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\ostream</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\stdexcept</file>
+            <file>$TOOLKIT_DIR$\lib\dl85nn1.r85</file>
+            <file>$PROJ_DIR$\Debug\List\_testJednotky.i</file>
+            <file>$PROJ_DIR$\StateMechanic\Transition.cpp</file>
+            <file>$PROJ_DIR$\StateMechanic\StateMechanic.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\unity.__cstat.et</file>
+            <file>$PROJ_DIR$\My_utils\MySorting.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\AbstractEvents.pbi</file>
+            <file>$PROJ_DIR$\StateMechanic\State.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\SmartEnum.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\UnityAddin.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\cctype</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\iosfwd</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\ios</file>
+            <file>$TOOLKIT_DIR$\inc\c\cstdarg</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\cstddef</file>
+            <file>$PROJ_DIR$\StateMechanic\IState.hpp</file>
+            <file>$PROJ_DIR$\__Unity\Unity.c</file>
+            <file>$PROJ_DIR$\My_src\MyMutex.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testJednotky.pbi</file>
+            <file>$PROJ_DIR$\UnitTypes\MyJednotky_assign.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+            <file>$PROJ_DIR$\My_src\MyTaskClass.h</file>
             <file>$PROJ_DIR$\Debug\Obj\AbstractEvents.r85</file>
-            <file>$PROJ_DIR$\StateMechanic\Event\Event.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyMaps.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\preinclude.__cstat.et</file>
+            <file>$PROJ_DIR$\SPI\LedDriver_SPI.h</file>
             <file>$PROJ_DIR$\Debug\Obj\MyFunctionoid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEvHandler.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\MySorting.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xstring</file>
             <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockInfo.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
-            <file>$PROJ_DIR$\Debug\List\_testEventHandlers.i</file>
-            <file>$PROJ_DIR$\Debug\List\AbstractTransition.i</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransition.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\State.pbi</file>
+            <file>$PROJ_DIR$\HeinzmannFb\Filters.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cstdio</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\Event.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\_testEventHandlers.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+            <file>$PROJ_DIR$\Debug\List\AbstractTransition.i</file>
+            <file>$PROJ_DIR$\My_src\Base128_4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransition.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
             <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\StateMechanic_tests.d85</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyEventHandler_T.__cstat.et</file>
             <file>$PROJ_DIR$\My_utils\MyJednotky.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\AbstractEvents.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Transition.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\functional</file>
+            <file>$PROJ_DIR$\Debug\Exe\StateMechanic_tests.d85</file>
             <file>$PROJ_DIR$\Debug\Obj\_testEventHandlers.r85</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyEventHandler_T.__cstat.et</file>
             <file>$TOOLKIT_DIR$\inc\c\cerrno</file>
-            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.pbi</file>
-            <file>$PROJ_DIR$\My_src\MySerial.h</file>
-            <file>$PROJ_DIR$\Debug\List\MockInfo.i</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\__Unity\UnityInternals.h</file>
-            <file>$PROJ_DIR$\PROTOKOLY\MyProtokol.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.pbi</file>
-            <file>$PROJ_DIR$\My_utils\MyMaps.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\setjmp.h</file>
-            <file>$PROJ_DIR$\Debug\List\_testFiredData.i</file>
-            <file>$PROJ_DIR$\HeinzmannFb\Filters_templates.c</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\vector</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyMath.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$PROJ_DIR$\StateMechanic\IStateMachineWithEventFireRequest.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r85</file>
-            <file>$PROJ_DIR$\__Unity\UnityAddin.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
-            <file>$PROJ_DIR$\My_utils\MyEventHandler_T.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\clocale</file>
-            <file>$PROJ_DIR$\StateMechanic\IInfo.hpp</file>
-            <file>$TOOLKIT_DIR$\inc\ecpp\xlocnum</file>
-            <file>$PROJ_DIR$\Debug\Obj\MockInfo.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\List\MyFunctionoid.i</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\My_utils\MyJednotky_assign.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Transition.pbi</file>
+            <file>$PROJ_DIR$\My_src\MyLed.h</file>
+            <file>$PROJ_DIR$\StateMechanic\IStateMachine.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testState.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.__cstat.et</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockTransitionGuards.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Transition.r85</file>
+            <file>$PROJ_DIR$\My_utils\MyFunctionoid.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Event.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\preinclude.r85</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testStateMechanic.__cstat.et</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEventTemplates.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testPrintClass.__cstat.et</file>
+            <file>$PROJ_DIR$\My_utils\MyMath.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+            <file>$PROJ_DIR$\StateMechanic\Transition.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\_testEvHandler.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testState.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\cstdlib</file>
+            <file>$PROJ_DIR$\Debug\List\StateMechanic.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\AbstractTransition.r85</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEvents.r85</file>
+            <file>$PROJ_DIR$\My_utils\MyMutex.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_templates.__cstat.et</file>
+            <file>$PROJ_DIR$\StateMechanic\IEvent.hpp</file>
+            <file>$PROJ_DIR$\Debug\Exe\NC232_tests.d85</file>
+            <file>$PROJ_DIR$\Debug\Obj\Event.pbi</file>
+            <file>$PROJ_DIR$\StateMechanic\Info\FiredData.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Transition\ITransition.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Transition\AbstractTransition.cpp</file>
+            <file>$PROJ_DIR$\Debug\List\_testStateMechanic.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testAbstractEvents.pbi</file>
+            <file>$PROJ_DIR$\StateMechanic\Info\IFiredData.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Info\InfoTemplate.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\State\State.cpp</file>
+            <file>$PROJ_DIR$\StateMechanic\State\IState.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Transition\Transition.cpp</file>
+            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\ITransitionGuard.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\TransitionGuardTemplate.hpp</file>
+            <file>$PROJ_DIR$\main.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\unity.r85</file>
+            <file>$PROJ_DIR$\My_utils\MySorting_T.c</file>
+            <file>$PROJ_DIR$\StateMechanic\EvHandler\IEvHandler.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\ichooser</file>
+            <file>$PROJ_DIR$\StateMechanic\StateMechanic.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testFiredData.__cstat.et</file>
+            <file>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</file>
+            <file>$PROJ_DIR$\StateMechanic\State\IStateWithMachineRef.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\AbstractEvents.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testEvHandler.pbi</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testTransitionGuards.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Event.__cstat.et</file>
+            <file>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</file>
+            <file>$PROJ_DIR$\StateMechanic\Info\IInfo.hpp</file>
+            <file>$TOOLKIT_DIR$\config\lnk70f3375.xcl</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\EvHandler\EvHandler.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\TransitionGuards\TransitionGuard.hpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStateWithMachineRef.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStruct.hpp</file>
+            <file>$PROJ_DIR$\Unity-master\src\unity.c</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\EventTemplate.hpp</file>
+            <file>$PROJ_DIR$\My_utils\SmartEnum.c</file>
+            <file>$PROJ_DIR$\My_utils\MySorting.c</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\IEvent.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockState.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.cpp</file>
+            <file>$PROJ_DIR$\_preinclude\preinclude.c</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.cpp</file>
+            <file>$PROJ_DIR$\StateMechanic\Event\Event.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockEvent.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockInfo.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockFullEvent.hpp</file>
+            <file>$PROJ_DIR$\Unity-master\src\unity_internals.h</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockTransition.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockEvHandler.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.cpp</file>
+            <file>$PROJ_DIR$\Unity-master\src\unity.h</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockStateMachine.hpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\EvHandler\_testEvHandler.cpp</file>
+            <file>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.cpp</file>
+            <file>$PROJ_DIR$\My_utils\MyFunctionoid.c</file>
+            <file>$PROJ_DIR$\Debug\List\StateMechanic_tests.html</file>
+            <file>$PROJ_DIR$\applilet2_src\main.c</file>
+            <file>$PROJ_DIR$\__TESTS\MemoryTest\memTest.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\State.__cstat.et</file>
             <file>$PROJ_DIR$\__TESTS\StateMechanic\EvHandler\_testEvHandler.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\StateMechanic_tests.pbd</file>
             <file>$TOOLKIT_DIR$\inc\ecpp\algorithm</file>
             <file>$PROJ_DIR$\StateMechanic\State.hpp</file>
-            <file>$PROJ_DIR$\applilet2_src\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\State.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\StateMechanic_tests.pbd</file>
-            <file>$PROJ_DIR$\Debug\List\memTest.i</file>
             <file>$PROJ_DIR$\Debug\Obj\memTest.r85</file>
-            <file>$PROJ_DIR$\__TESTS\MemoryTest\memTest.hpp</file>
-            <file>$PROJ_DIR$\Debug\List\StateMechanic_tests.html</file>
             <file>$PROJ_DIR$\Debug\Obj\memTest.pbi</file>
+            <file>$PROJ_DIR$\My_utils\MyJednotky_assign.c</file>
+            <file>$PROJ_DIR$\Debug\List\memTest.i</file>
+            <file>$PROJ_DIR$\Debug\Obj\MockInfo.__cstat.et</file>
+            <file>$PROJ_DIR$\__Unity\UnityInternals.h</file>
+            <file>$PROJ_DIR$\Debug\List\MyFunctionoid.i</file>
+            <file>$PROJ_DIR$\Debug\List\MockInfo.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\setjmp.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\clocale</file>
+            <file>$PROJ_DIR$\Debug\Obj\_testTransitionGuards.pbi</file>
+            <file>$PROJ_DIR$\HeinzmannFb\Filters_templates.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.pbi</file>
+            <file>$PROJ_DIR$\My_utils\MyMaps.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyMath.pbi</file>
+            <file>$PROJ_DIR$\PROTOKOLY\MyProtokol.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r85</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+            <file>$PROJ_DIR$\My_utils\MyEventHandler_T.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\List\_testFiredData.i</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+            <file>$PROJ_DIR$\StateMechanic\IInfo.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\xlocnum</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky.__cstat.et</file>
+            <file>$PROJ_DIR$\__Unity\UnityAddin.c</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\ecpp\vector</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyJednotky_assign.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\My_src\MySerial.h</file>
+            <file>$PROJ_DIR$\StateMechanic\IStateMachineWithEventFireRequest.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\memTest.__cstat.et</file>
         </outputs>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testAbstractEvents.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 162 19</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 23 308 304 331 152 66 346 119 299 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 294</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157 107 39 138 199 347 61 189 352 47 178 140 270 210 244 134 294 351 31 126 220 151 226 77 330 342 123 212 356 281 87 204 102 243 73 121 308 331 118 346 265 256 263 68 85 10 133 165 180 222 332 246 240 340 166 142 207 344 213 200 6 183 179 23 299 304 152 119 66 41 293 275 225 260 124 17 271</file>
+                </tool>
+            </inputs>
+        </file>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 308 355</file>
+                    <file> 218 314</file>
                 </tool>
             </outputs>
         </file>
@@ -377,217 +405,25 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 352 353</file>
+                    <file> 325 322</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 357</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 356</file>
+                    <file> 323</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 354 210 220 322 237 113 330 125</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 316 308 304 331 152 66 346 119</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 344 27 135 94 282 272 242 288 98 317 340 140 24 176 312 190 36 253 256 89 158 294 334 134 124 236 76 163 152 313 338 255 148 268 335 164 194 302 326 307 122 244 210 237 125 113 296 79 172 295 170 354 220 322 330</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 323 110</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 12</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 231</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 197 210 220 322 237 113 330 125 87 224 217 182 100 192 112 81 138 86 325 13 205 198 2 30 214 329 265 226 206 238 250 216 218</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 344 27 294 140 340 24 176 36 158 242 288 256 244 224 86 13 198 312 190 253 89 334 317 134 295 217 170 98 282 135 272 94 124 210 2 322 148 330 182 138 81 238 206 236 76 163 152 313 338 255 268 335 164 194 302 326 307 296 79 172 197 87 205 218 220 237 125 113 325 100 192 112 329 216 265 30 214 226 250</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 127 273</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 130</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 129</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 251 210 220 322 237 113 330 125 299 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 118 139 215 207 245 202 246 224 208 218 199</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 250 122 27 294 340 24 176 344 36 158 242 288 256 244 202 295 238 140 312 190 253 89 334 317 134 182 325 246 98 282 135 272 94 124 210 218 322 148 330 329 216 226 206 198 100 192 76 170 86 13 207 214 236 163 152 313 338 255 268 335 164 194 302 326 307 296 79 172 251 299 208 199 220 237 125 113 30 118 245 265 217 138 112 81 215 139 224</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\EvHandler\_testEvHandler.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 271 284</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 95</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 346 210 220 322 237 113 330 125 87 215 216 206 198 214 182 100 192 112 81 138 86 207 30 329 265 226 217 325 13 238 250 205 2 218 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 27 294 340 81 24 176 344 36 158 242 322 325 288 256 244 215 330 100 112 216 140 312 190 253 89 334 317 134 4 148 192 98 282 135 272 94 124 210 2 295 182 214 76 329 265 198 207 236 163 152 313 338 255 268 335 164 194 302 326 307 296 79 172 170 346 87 205 218 220 237 125 113 206 138 30 238 217 86 226 250 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 52 50</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 60</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 235</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 21 210 220 322 237 113 330 125 87 206 198 214 207 30 329 265 226 217 182 100 192 112 81 138 86 325 13 238 250 216 224 205 2 218</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 27 294 340 256 24 176 344 36 158 242 288 244 206 220 214 226 30 140 312 190 253 89 334 317 134 205 113 100 112 182 98 282 135 272 94 124 210 217 218 237 125 250 325 192 76 81 329 236 163 152 313 338 255 148 268 335 164 194 302 326 307 296 79 172 295 170 21 87 207 224 2 322 330 198 238 216 265 138 86 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testAbstractEvents.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 167 58</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 93</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 64 210 220 322 237 113 330 125 2 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 205</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 192 122 27 182 294 340 24 176 344 36 158 242 216 288 256 244 205 325 76 140 312 190 253 89 334 317 134 295 329 206 98 282 135 272 94 124 210 322 148 330 238 226 198 100 112 81 236 163 152 313 338 255 268 335 164 194 302 326 307 296 79 172 170 64 2 220 237 125 113 30 214 250 265 217 138 86 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 77 162</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 275</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 115</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 154</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 35</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 159</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\My_utils\MyMaps.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 37 229</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 293</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 144</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 321</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 325 338 242 27 344 170 56 343 247 81 237 160 175 288 79 100 192 149 182 297 163 152 148 268 317 164 326 296 236 65 173 140 295 188 114 347 62 183 98 315 76 313 255 335 190 194 302 307 172 282 280 285 241 185 252 291 113 289 340 24 176 312 36 135 253 256 272 89 158 94 294 334 134 122 244 124 111 319 181 51 13 138 112 86 96 141 147 324 330 120 39 116 248 233 321</file>
+                    <file> 352 39 102 73 204 243 140 210 87 342 347 126 61 189 220 151 47 226 244 77 178 199 330 123 121 133 31 165 180 222 332 246 118 240 340 166 142 207 344 213 107 134 308 152 119 66 200 6 183 212 179 316 304 331 346</file>
                 </tool>
             </inputs>
         </file>
@@ -596,25 +432,52 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 43 278</file>
+                    <file> 35 235</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 333</file>
+                    <file> 348</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 320</file>
+                    <file> 335</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 243 97 78 41 85 126 230 28</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 141 78 3 45 13 111 129 46</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 294 39 122 340 175 114 97 24 176 344 36 158 242 185 164 297 188 288 256 244 236 81 141 182 120 140 312 190 253 89 334 317 134 252 241 192 76 170 86 325 291 173 98 315 282 135 272 94 124 111 319 343 247 100 112 96 65 147 324 330 28 126 347 163 152 313 338 255 148 268 335 194 302 326 307 296 79 172 295 280 56 285 181 51 13 138 149 62 237 113 160 289 183 78 116 248 233 243 41 230 85</file>
+                    <file> 39 199 58 107 347 186 67 78 61 189 352 47 178 140 144 166 203 146 210 244 134 133 10 127 138 109 126 220 151 226 77 330 342 123 231 135 157 31 179 17 351 217 190 87 355 204 102 243 73 121 84 338 350 136 68 85 69 8 116 334 346 46 111 320 165 180 222 332 246 118 240 340 142 207 344 213 200 6 183 212 224 9 209 148 54 271 124 120 21 152 66 164 194 154 3 89 137 149 141 45 129 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\My_utils\MyMaps.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 53 130</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 336</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 351 332 140 39 352 179 9 350 136 10 152 164 186 210 6 68 157 120 138 203 165 180 118 240 342 166 344 200 133 8 190 126 212 146 67 320 21 154 87 355 31 222 246 340 151 142 207 213 183 204 224 209 135 144 231 217 66 194 347 61 189 220 47 102 226 244 243 77 178 73 199 330 123 107 134 121 84 338 148 54 271 124 85 17 69 127 116 334 346 109 58 89 137 149 336</file>
                 </tool>
             </inputs>
         </file>
@@ -623,21 +486,21 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 104 109</file>
+                    <file> 79 83</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 264</file>
+                    <file> 228</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 314</file>
+                    <file> 333</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 23 179 214 191 250 198 329 265 226 206 217 215 216 207 30 238 299 118 139 245 202 246 224</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 278 170 293 159 275 263 356 225 256 281 260 284 270 261 41 265 205 92 125 285 290 266 255</file>
                 </tool>
             </inputs>
         </file>
@@ -646,119 +509,42 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 46 45</file>
+                    <file> 48 38</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 277</file>
+                    <file> 251</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 171</file>
+                    <file> 182</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\StateMechanic\State.cpp</name>
+            <name>$PROJ_DIR$\StateMechanic\Event.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 83 121</file>
+                    <file> 2 232</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 350</file>
+                    <file> 279</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 306</file>
+                    <file> 254</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 348 186 169 329 265 119 339 279 91 123 267</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 108 252 356 225 184 113 345 241 72 158</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 288 27 113 340 24 176 344 135 94 124 173 62 186 319 81 86 325 79 56 188 148 91 140 312 190 272 242 111 343 247 13 252 175 291 182 116 248 98 315 282 36 253 256 89 158 294 334 317 134 122 244 236 241 185 138 295 149 114 347 164 237 160 233 348 329 76 163 152 313 338 255 268 335 194 302 326 307 296 172 170 65 280 285 181 51 168 100 192 112 96 297 141 147 324 330 39 265 169 339 289 120 183 123 119 279 267</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__Unity\Unity.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 31</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 73 318 322 74</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 288 27 340 252 24 176 344 135 94 124 173 175 319 291 182 140 312 190 272 242 111 343 247 13 192 76 170 325 79 62 56 297 188 65 116 98 315 282 36 253 256 89 158 294 334 317 134 122 244 236 241 185 138 112 255 149 114 347 164 237 330 39 73 163 152 313 338 148 268 335 194 302 326 307 296 172 295 280 285 181 51 168 100 81 86 96 141 147 324 113 248 160 233 322 289 120 183 318</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\Transition.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 143 274</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 287</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 260</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 267 91 339 169 279 119 348 186 329 265 123</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 288 188 27 340 237 24 176 344 135 94 124 173 325 169 319 140 295 149 182 297 329 267 312 190 272 242 111 343 247 13 81 114 236 347 164 348 98 315 282 36 253 256 89 158 294 334 317 134 122 244 175 252 241 185 138 86 79 62 56 291 113 120 39 91 76 163 152 313 338 255 148 268 335 194 302 326 307 296 172 170 65 280 285 181 51 168 100 192 112 96 141 147 324 330 160 289 183 123 265 279 116 248 233 119 339 186</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\UnitTypes\MyJednotky_assign.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 128 92</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 337</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 72</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 68 243 97 78 41 85 126 230</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27 120 294 122 340 175 192 149 24 176 344 36 158 242 185 164 182 288 256 244 236 81 325 237 188 39 140 312 190 253 89 334 317 134 252 241 295 114 347 113 173 98 315 282 135 272 94 124 111 319 343 247 100 255 79 62 56 291 297 243 97 76 163 152 313 338 148 268 335 194 302 326 307 296 172 170 65 280 285 181 51 13 138 112 86 96 141 147 324 330 160 289 183 126 85 116 248 233 68 41 230 78</file>
+                    <file> 210 10 39 67 347 346 61 189 352 102 73 121 190 203 338 127 138 146 21 154 184 126 220 151 243 140 84 350 136 271 124 157 31 351 217 133 164 186 87 355 204 47 226 244 77 178 199 330 342 123 107 134 231 135 144 85 179 17 69 166 8 116 334 194 356 225 252 165 180 222 332 246 118 240 340 142 207 344 213 200 6 183 212 224 9 209 148 54 163 68 120 320 152 66 109 58 158 113 345 89 137 149 108 241 72</file>
                 </tool>
             </inputs>
         </file>
@@ -767,585 +553,129 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 99 88</file>
+                    <file> 95 93</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 189</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 187</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 325 338 242 27 344 170 56 343 247 81 237 288 79 100 192 149 182 163 152 148 268 317 164 326 296 236 65 173 140 295 188 114 347 98 315 76 313 255 335 190 194 302 307 172 282 280 285 175 241 185 252 62 291 113 120 39 340 24 176 312 36 135 253 256 272 89 158 94 294 334 134 122 244 124 111 319 181 51 13 138 112 86 96 297 141 147 324 330 160 289 183 116 248 233</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\Event.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 67 254</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 18</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 123 279 329 265 169 119 339 267 91 186</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 288 81 27 114 340 330 24 176 344 135 94 124 173 297 319 141 182 188 62 183 169 140 312 190 272 242 111 343 247 13 138 192 76 325 291 236 160 175 98 315 282 36 253 256 89 158 294 334 317 134 122 244 252 241 185 112 170 86 96 164 65 147 324 289 329 265 279 163 152 313 338 255 148 268 335 194 302 326 307 296 79 172 295 280 56 285 181 51 168 100 149 347 237 113 120 39 186 119 339 116 248 233 123 267 91</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\My_utils\MySorting.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 90 292</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 107</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 240</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 155 325 182 100 192 112 81 138 86 13 11</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 268 340 27 24 176 344 36 194 288 172 295 140 312 190 253 272 255 182 98 282 135 335 302 307 170 81 236 317 76 163 152 313 338 148 256 242 164 326 296 79 155 325 11 13 100 192 122 89 158 94 294 334 134 244 124 138 112 86</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 40 261</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 193</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 281</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 48 210 220 322 237 113 330 125 8 299 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 118 139 215 207 245 202 246 224 208 199 191 4 301 179 56 347 147 291</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 27 294 340 238 24 176 344 36 158 242 81 288 256 244 202 113 139 217 140 312 190 253 89 334 317 134 4 220 250 98 282 135 272 94 124 210 199 179 237 125 182 325 192 76 170 86 13 207 191 147 236 163 152 313 338 255 148 268 335 164 194 302 326 307 296 79 172 295 48 8 208 301 322 330 329 216 226 206 198 100 112 215 30 214 246 299 118 245 265 138 224 56 347 291</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 84 108</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 305</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 131 210 220 322 237 113 330 125 203 118 139 215 216 206 198 214 182 100 192 112 81 138 86 207 30 329 265 226 217 325 13 238 250 301 4 245 266 179 191 299 202 246 224 56 347 147 291</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 27 294 340 256 214 24 176 344 36 158 242 299 81 288 244 301 220 238 215 217 140 312 190 253 89 334 317 134 113 250 182 206 30 98 282 135 272 94 124 210 245 237 125 112 325 13 207 246 147 236 76 163 152 313 338 255 148 268 335 164 194 302 326 307 296 79 172 295 170 131 203 4 266 322 330 100 192 86 226 329 191 118 139 216 198 138 265 179 56 202 224 347 291</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 9 54</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 258</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 290</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 101 299 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 118 139 215 207 245 202 246 224 210 220 322 237 113 330 125 179 191 56 347 147 291 266 26</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 122 27 113 294 138 340 24 176 344 36 158 242 124 291 288 256 244 299 214 182 215 140 312 190 253 89 334 317 134 217 295 98 282 135 272 94 266 118 226 198 81 86 164 238 207 139 220 56 179 236 76 163 152 313 338 255 148 268 335 194 302 326 307 296 79 172 170 210 30 245 250 265 325 206 329 246 237 125 202 347 101 26 216 100 192 112 13 224 322 330 191 147</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\My_utils\SmartEnum.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 49 33</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 80</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 156</file>
                 </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 132 328</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 268 27 340 24 176 344 36 94 288 132 140 312 190 253 272 242 98 282 135 335 89 158 294 334 317 134 122 170 79 236 76 163 152 313 338 255 148 256 164 194 302 326 307 296 172 295 244 124 328</file>
+                    <file> 351 332 140 39 352 179 9 350 136 10 152 210 6 68 157 120 138 165 180 118 240 342 166 344 200 133 8 190 126 212 146 67 320 87 355 31 222 246 340 151 142 207 213 183 204 224 209 186 135 144 231 21 217 66 109 58 347 61 189 220 47 102 226 244 243 77 178 73 199 330 123 107 134 121 84 338 148 54 271 124 85 17 69 203 127 116 334 346 164 194 154 89 137 149</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.cpp</name>
+            <name>$PROJ_DIR$\StateMechanic\Transition.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 22 298</file>
+                    <file> 115 230</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 283</file>
+                    <file> 216</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 157</file>
+                    <file> 223</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 118 139 215 207</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 241 72 345 184 252 113 321 158 356 225 108</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 344 340 118 24 81 295 288 27 79 140 242 170 214 325 98 282 256 317 164 326 296 236 250 265 86 226 216 76 163 152 313 338 255 148 190 194 302 307 172 217 198 182 138 206 139 176 312 36 135 253 268 335 272 89 158 94 294 334 134 122 244 124 30 329 238 100 192 112 13 215 207</file>
+                    <file> 210 146 39 347 152 61 189 352 102 73 121 190 351 184 338 126 212 120 138 203 356 241 220 151 243 140 84 350 136 271 10 67 133 320 166 321 87 355 204 47 226 244 77 178 199 330 342 123 107 134 186 231 135 144 124 17 6 21 9 217 66 109 58 72 31 165 180 222 332 246 118 240 340 142 207 344 213 200 183 179 8 224 209 148 54 163 68 157 85 69 127 116 334 346 164 194 154 108 225 252 89 137 149 113 345 158</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\StateMechanic\Event\Event.cpp</name>
+            <name>$PROJ_DIR$\StateMechanic\State.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 67 254</file>
+                    <file> 12 106</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 18</file>
+                    <file> 317</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15</file>
+                    <file> 202</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 299 30 214 329 265 198 226 206 217 182 100 192 112 81 138 86 325 13 238 250 216 118 139 215 207 245</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 321 158 184 356 225 113 345 252 72 108 241</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 335 317 250 340 81 24 176 344 36 288 27 334 206 140 312 190 253 89 134 299 245 265 192 198 98 282 135 158 294 122 242 244 30 214 325 295 139 236 76 163 152 313 338 255 268 272 94 124 118 226 217 182 138 164 216 148 256 194 302 326 307 296 79 172 170 329 238 100 112 86 13 215 207</file>
+                    <file> 210 39 66 347 61 189 352 102 73 121 190 21 158 338 10 17 351 6 9 146 118 72 126 220 151 243 140 84 350 136 271 231 186 217 138 89 137 87 355 204 47 226 244 77 178 199 330 342 123 107 134 133 135 144 124 212 120 67 320 166 152 164 149 321 356 31 165 180 222 332 246 240 340 142 207 344 213 200 183 179 8 224 209 148 54 163 68 157 85 69 203 127 116 334 346 58 225 184 345 194 109 154 108 113 252 241</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\My_utils\MyFunctionoid.c</name>
+            <name>$PROJ_DIR$\__Unity\Unity.c</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 342 117</file>
+                    <file> 268</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 18 327 331 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210 39 347 231 61 189 352 102 73 121 190 186 338 217 138 126 220 151 243 140 84 350 136 271 157 31 179 351 6 21 9 203 146 8 89 87 355 204 47 226 244 77 178 199 330 342 123 107 134 133 135 144 124 85 246 120 67 320 166 152 346 58 18 165 180 222 332 118 240 340 142 207 344 213 200 183 212 224 209 148 54 163 68 10 17 69 127 116 334 66 137 164 149 331 194 109 154 327</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\UnitTypes\MyJednotky_assign.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 110 80</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 34</file>
+                    <file> 353</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 300</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 252 325 182 100 192 112 81 138 86 13</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 26 141 78 3 45 13 111 129</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 268 340 27 24 176 344 36 124 288 122 140 312 190 253 272 242 98 282 135 335 94 182 192 76 170 236 317 163 152 313 338 255 148 256 89 158 294 334 134 244 325 13 138 112 81 164 194 302 326 307 296 79 172 295 252 100 86</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\_preinclude\preinclude.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 103 262</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 286</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 137</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 161 328</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 344 27 334 170 335 317 135 89 134 282 158 294 122 98 340 140 24 176 312 190 36 253 268 272 242 94 244 236 288 76 163 152 313 338 255 148 256 164 194 302 326 307 296 79 172 295 124 59 161 328</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockInfo.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 316 142</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 341</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 106</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 301 206 198 214 2 30 329 265 226 217 182 100 192 112 81 138 86 325 13 238 250 216 205</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 268 182 250 100 340 27 194 24 176 344 36 288 172 295 112 140 312 190 253 272 255 206 98 282 135 335 302 307 214 226 81 329 236 317 76 163 152 313 338 148 256 242 164 326 296 79 170 2 30 217 325 192 86 122 13 89 158 94 294 334 134 244 124 301 205 198 238 216 265 138</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Unity-master\src\unity.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 70 10</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 180</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 31</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 210 220 322 237 113 330 125</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27 340 344 24 288 317 326 79 236 140 148 268 164 242 296 98 282 170 220 295 76 163 152 313 338 255 335 190 194 302 307 172 322 330 176 312 36 135 253 256 272 89 158 94 294 334 134 122 244 124 210 237 125 113</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 303 311</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 133</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 102</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 26 179 214 191 250 198 329 265 226 206 217 182 100 192 112 81 138 86 325 13 215 216 207 30 238 299 118 139 245 202 246 224 56 347 147 291</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 226 268 27 140 340 24 176 344 36 94 191 217 295 81 288 242 250 206 216 139 312 190 253 272 124 202 329 198 100 86 164 118 238 98 282 135 335 89 158 294 334 317 134 122 244 26 179 215 265 325 147 182 236 76 163 152 313 338 255 148 256 194 302 326 307 296 79 172 170 214 56 299 138 192 112 13 30 245 246 207 224 347 291</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\Transition\Transition.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 143 274</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 287</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 260</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 118 139 215 216 206 198 214 182 100 192 112 81 138 86 207 30 329 265 226 217 325 13 238 250 191 299 245 202 246 224</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27 294 340 344 122 182 24 288 158 242 118 246 140 244 81 255 30 206 98 282 135 335 89 334 317 134 226 216 329 214 236 76 163 152 313 338 176 312 190 36 253 268 272 94 124 139 198 138 295 192 250 217 325 13 299 245 238 148 256 164 194 302 326 307 296 79 172 170 191 215 207 100 112 86 265 202 224</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 53 331</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 196</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 57</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 210 220 322 237 113 330 125 354 101 64 251 346 21 197 48 131</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27 344 125 135 94 64 282 272 242 98 317 340 140 24 176 312 190 36 253 256 89 158 294 334 134 122 244 197 237 236 288 76 163 152 313 338 255 148 268 335 164 194 302 326 307 124 354 346 131 330 296 79 172 295 170 210 101 251 21 48 220 322 113</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\State\State.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 83 121</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 350</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 306</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 191 250 198 329 265 226 206 214 217 182 100 192 112 81 138 86 325 13 215 216 207 30 238 299 118 139 245 202 246 224</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 207 164 340 24 27 288 344 242 296 217 246 140 256 317 326 79 236 250 206 182 138 81 255 214 245 98 282 170 202 329 198 30 139 76 163 152 313 338 148 190 194 302 307 172 295 215 265 325 192 226 118 238 176 312 36 135 253 268 335 272 89 158 94 294 334 134 122 244 124 191 299 100 112 86 13 216 224</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\StateMechanic.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 270 25</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 178</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 75</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 179 214 191 250 198 329 265 226 206 217 182 100 192 112 81 138 86 325 13 215 216 207 30 238 299 118 139 245 202 246 224 56 347 147 291 276 343</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 268 207 27 182 340 214 24 176 344 36 94 138 288 242 112 255 246 140 312 190 253 272 124 276 329 217 170 81 245 98 282 135 335 89 158 294 334 317 134 122 244 56 299 198 226 192 76 250 30 139 325 236 163 152 313 338 148 256 164 194 302 326 307 296 79 172 295 179 191 206 215 202 265 100 13 118 238 147 86 216 224 347 291 343</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\My_utils\MyMath.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 42 69</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 234</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 327</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 97 78 32 55</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27 294 122 182 340 175 81 24 176 344 36 158 242 185 164 255 288 291 248 256 244 236 252 116 56 140 312 190 253 89 334 317 134 241 325 79 62 188 148 98 315 282 135 272 94 124 111 319 343 173 247 100 295 192 149 114 347 237 330 160 233 97 78 55 76 163 152 313 338 268 335 194 302 326 307 296 172 170 65 280 285 181 51 13 138 112 86 96 297 141 147 324 113 39 289 120 183 32</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StateMechanic\Transition\AbstractTransition.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 304 263</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 105</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 66</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 139 215 216 206 198 214 182 100 192 112 81 138 86 207 30 329 265 226 217 325 13 238 250 191 299 118 245 202 246 224</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 340 24 148 164 288 255 214 192 170 182 81 250 246 140 27 344 194 172 295 215 76 86 198 98 282 190 302 307 122 238 217 206 236 317 163 152 313 338 256 242 326 296 79 191 207 100 112 329 216 265 325 202 139 176 312 36 135 253 268 335 272 89 158 94 294 334 134 244 124 226 138 30 13 299 118 245 224</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\NC232_tests.d85</name>
-            <inputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 17 58 311 273 284 110 50 261 54 108 298 263 254 331 142 117 292 262 33 121 25 274 10 174</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEventTemplates.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 63 184</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 82</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 64 210 220 322 125 30 214 329 265 198 226 206 217 238 250 216</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 288 27 183 340 81 188 24 176 344 135 94 124 173 141 182 62 319 297 114 113 220 140 312 190 272 242 111 343 247 13 295 325 291 236 160 175 256 98 315 282 36 253 89 158 294 334 317 134 122 244 252 241 185 138 86 96 164 65 147 324 289 226 217 76 163 152 313 338 255 148 268 335 194 302 326 307 296 79 172 170 280 56 285 181 51 168 100 192 112 149 347 237 330 120 39 210 125 214 250 265 198 206 116 248 233 64 30 322 329 238 216</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\StateMechanic_tests.d85</name>
-            <outputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 355</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 17 58 311 273 284 110 50 261 54 108 298 263 254 331 353 142 117 292 262 33 121 25 274 10 174</file>
+                    <file> 39 109 199 107 347 186 157 120 61 189 352 47 178 140 144 166 138 210 244 134 133 10 351 152 146 58 126 220 151 226 77 330 342 123 231 135 212 67 320 66 190 87 355 204 102 243 73 121 84 338 350 136 68 246 6 21 9 217 203 141 78 31 165 180 222 332 118 240 340 142 207 344 213 200 183 179 8 224 209 148 54 271 124 85 17 69 127 116 334 346 164 194 154 111 13 89 137 149 26 45 129 3</file>
                 </tool>
             </inputs>
         </file>
@@ -1354,24 +684,541 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 43 278</file>
+                    <file> 35 235</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 333</file>
+                    <file> 348</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 320</file>
+                    <file> 335</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\__Unity\UnityAddin.c</name>
+            <name>$PROJ_DIR$\Debug\Exe\StateMechanic_tests.d85</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 314</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 282 19 219 249 197 91 52 245 56 88 191 248 232 339 322 114 90 198 233 50 106 36 230 268 167</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEventTemplates.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 166</file>
+                    <file> 4 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 23 308 304 331 119 41 293 356 225 263 256 281 260 265 275 270</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210 39 154 347 10 146 61 189 352 102 73 121 190 127 138 21 338 203 67 66 304 126 220 151 243 140 84 350 136 271 212 351 217 133 164 186 244 87 355 204 47 226 77 178 199 330 342 123 107 134 231 135 144 124 17 69 166 8 116 334 194 256 260 31 165 180 222 332 246 118 240 340 142 207 344 213 200 6 183 179 224 9 209 148 54 163 68 157 85 120 320 152 346 109 58 308 119 293 275 225 263 281 89 137 149 23 41 331 356 265 270</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\My_utils\MyMath.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 34 22</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 337</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 78 3 57 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 199 107 138 347 186 10 61 189 352 47 178 140 144 166 246 210 217 137 244 134 133 231 89 9 126 220 151 226 77 330 342 123 135 351 6 21 146 118 87 355 204 102 243 73 121 84 338 350 190 136 68 212 157 120 67 320 152 346 164 149 78 3 20 31 165 180 222 332 240 340 142 207 344 213 200 183 179 8 224 209 148 54 271 124 85 17 69 203 127 116 334 66 58 194 109 154 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\NC232_tests.d85</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 282 19 219 249 197 91 52 245 56 88 191 248 232 339 114 90 198 233 50 106 36 230 268 167</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\Transition\AbstractTransition.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 208 248</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 125 284 270 281 263 293 138 68 157 85 10 124 17 261 41 356 225 256 260 351 271 265 275 159 205 92 285 290 266 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 347 61 118 166 210 246 293 157 179 138 10 275 266 126 39 352 142 183 212 284 31 17 263 87 204 151 207 213 107 265 260 281 133 342 165 180 222 332 244 140 344 200 6 159 261 68 85 356 270 225 351 290 125 189 220 47 102 226 240 340 243 77 178 73 199 330 123 134 121 256 124 41 271 205 92 285 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\State\State.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 12 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 317</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 159 275 263 356 225 256 281 293 260 138 68 157 85 10 124 17 351 271 284 270 261 41 265 205 92 125 285 290 266 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261 166 347 61 39 210 352 140 200 260 266 126 244 342 344 6 133 275 281 138 124 10 246 293 285 87 204 179 290 356 263 41 125 31 165 180 222 332 118 151 142 207 213 183 212 284 225 351 157 256 92 265 189 220 47 102 226 240 340 243 77 178 73 199 330 123 107 134 121 159 205 68 85 17 271 270 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\Transition\Transition.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 115 230</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 92 125 284 270 281 263 293 138 68 157 85 10 124 17 261 41 356 225 256 260 351 271 265 275 159 205 285 290 266 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 199 347 352 107 138 61 210 178 140 92 266 126 134 10 246 41 281 87 204 102 340 77 330 342 123 256 270 356 293 133 31 165 180 222 332 189 220 151 47 226 240 243 73 121 125 263 124 212 157 275 260 351 271 205 285 265 118 244 166 142 207 344 213 200 6 183 179 159 284 261 68 85 17 225 290 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 55 339</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 308 304 331 152 66 346 119 316 70 23 234 318 283 147 51 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 352 119 102 73 23 204 243 140 87 342 347 126 61 189 220 151 47 226 244 77 178 199 330 123 107 134 147 152 133 210 31 165 180 222 332 246 118 240 340 166 142 207 344 213 121 316 318 112 346 200 6 183 212 179 308 70 234 283 51 304 331 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\StateMechanic.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 247 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 170 293 159 275 263 356 225 256 281 260 138 68 157 85 10 124 17 351 271 284 270 261 41 265 205 92 125 285 290 266 255 9 320 116 217 250 350</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 261 39 138 347 293 61 189 352 47 73 124 210 140 85 246 266 126 220 151 226 243 121 250 356 260 179 10 285 87 204 102 340 77 178 199 330 342 123 107 134 9 205 263 256 157 31 275 41 125 351 133 165 180 222 332 118 244 166 142 207 344 213 200 6 183 212 170 159 281 284 290 225 68 271 92 265 116 17 270 255 320 217 350</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 33 176</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\Event\AbstractEvents.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 276 191</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 92 125 284 261</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 352 347 92 61 10 212 210 39 6 126 140 179 293 351 87 204 244 342 166 344 200 133 275 225 17 256 270 31 165 180 222 332 246 118 151 142 207 213 183 260 263 138 124 281 125 189 220 47 102 226 240 340 243 77 178 73 199 330 123 107 134 121 41 356 265 68 157 85 271 284 261</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Unity-master\src\unity.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 25 268</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 308 304 331 152 66 346 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 347 352 61 210 342 344 6 133 126 118 240 166 140 200 87 204 179 304 212 31 165 180 222 332 246 340 151 142 207 213 183 331 346 189 220 47 102 226 244 243 77 178 73 199 330 123 107 134 121 308 152 119 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\My_utils\SmartEnum.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 40 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 122 354</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 39 347 61 189 352 47 73 210 122 126 220 151 226 243 140 87 204 102 340 77 178 199 330 342 123 107 179 6 133 31 165 180 222 332 246 118 244 166 142 207 344 213 200 183 212 134 121 354</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\My_utils\MySorting.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 76 198</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 172 351 138 68 157 85 10 124 17 271 269</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 347 39 61 189 352 47 142 210 183 212 126 220 151 226 243 246 138 87 204 102 340 207 213 179 10 133 342 31 165 180 222 332 118 244 140 166 344 200 6 172 351 269 271 68 157 107 77 178 73 199 330 123 134 121 124 85 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\_testStateMechanic.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 258 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 70 205 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 92 125 284 261 285 290 266 255 308 304 331 152 66 346 119 170 159 9 320 116 217 229 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 39 199 347 61 189 352 47 178 140 331 210 244 134 260 212 125 126 220 151 226 77 330 342 123 308 293 138 124 346 159 205 351 87 204 102 243 73 92 256 263 10 17 166 281 275 118 133 31 165 180 222 332 246 240 340 142 207 344 213 200 6 183 179 121 229 41 285 225 270 356 255 116 70 290 170 43 265 68 157 85 271 284 261 266 304 152 119 66 9 320 217</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\_preinclude\preinclude.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 75 233</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 181 354</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 352 39 330 179 340 342 102 77 123 204 178 199 107 87 347 126 61 189 220 151 47 226 240 243 140 73 134 133 210 31 165 180 222 332 246 118 244 166 142 207 344 213 200 6 183 212 121 28 181 354</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testFiredData.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 343 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 273</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 147 308 304 331 152 66 346 119 71 255 260 138 68 157 85 10 124 17 351 271 294 263 299 41 293 356 225 256 281 265 275 270 288</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 352 39 199 126 347 61 189 47 178 140 210 244 134 255 17 271 263 220 151 226 77 330 342 123 212 260 179 87 204 102 243 73 121 308 299 331 118 346 138 124 10 265 281 133 31 165 180 222 332 246 240 340 166 142 207 344 213 200 6 183 147 71 294 288 304 152 119 66 351 68 157 85 356 270 225 41 293 256 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StateMechanic\Event\Event.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 2 232</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 279</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 205 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 92 125 284 261 285</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 340 342 275 347 10 61 189 352 47 210 39 330 281 126 220 151 226 77 123 205 285 225 157 263 87 204 102 178 199 107 140 134 41 293 351 212 125 133 31 165 180 222 332 246 240 243 73 121 92 256 260 138 124 166 270 118 244 142 207 344 213 200 6 183 179 356 265 68 85 17 271 284 261</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\MockObjects\MockInfo.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 329 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 326</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 201 281 263 293 299 41 356 225 256 260 138 68 157 85 10 124 17 351 271 265 275 270 294</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 138 275 68 347 39 142 61 189 352 47 210 183 212 85 126 220 151 226 243 246 281 87 204 102 340 207 213 293 256 10 356 133 342 31 165 180 222 332 118 244 140 166 344 200 6 179 299 41 260 351 157 17 107 271 77 178 73 199 330 123 134 121 201 294 263 265 270 225 124</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Info\_testInfo.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 42 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 283 308 304 331 152 66 346 119 71 281 263 293 261 41 356 225 256 260 138 68 157 85 10 124 17 351 271 265 275 270 255 294 299 288</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 39 199 347 244 61 189 352 47 178 140 210 134 281 304 293 256 41 126 220 151 226 77 330 342 123 294 66 68 85 138 87 204 102 243 73 121 308 260 288 152 119 275 351 157 31 10 356 133 165 180 222 332 246 118 240 340 166 142 207 344 213 200 6 183 212 179 283 71 261 255 299 331 346 263 265 270 225 124 17 271</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Transition\_testTransition.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 16 88</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 211</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -1381,28 +1228,159 @@
             <inputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 59 236 76 163 152 340 313 344 27 312 135 253 190 36 176 140 148 338 268 335 282 256 242 272 255 317 24 89 158 194 294 302 307 326 334 134 164 122 79 172 295 296 170 244 124 94 98 288 315 173 175 343 65 188 185 168 325 182 100 192 112 81 138 86 13 247 252 181 149 96 291 241 62 56 347 147 297 114 237 113 330 324 141 116 51 160 111 280 39 289 248 120 319 183 233 285 38</file>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 112 308 304 331 152 66 346 119 305 92 125 284 270 281 263 293 138 68 157 85 10 124 17 261 41 356 225 256 260 351 271 265 275 201 306 285 229 170 159 205 290 266 255 9 320 116 217</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 56 182 338 185 255 27 188 344 190 175 112 325 79 39 288 194 172 295 280 236 62 113 120 163 152 335 302 307 282 173 285 241 138 252 291 116 98 315 76 313 148 268 242 317 164 326 296 170 65 343 247 13 192 149 114 347 237 297 340 140 24 176 312 36 135 253 256 272 89 158 94 294 334 134 122 244 124 111 319 181 51 168 100 81 86 96 141 147 324 330 160 289 183 248 233 38</file>
+                    <file> 107 39 199 347 244 293 61 189 352 47 178 140 205 10 210 134 201 304 265 284 260 126 220 151 226 77 330 342 123 66 275 138 281 41 87 204 102 243 73 121 308 285 152 119 85 351 271 261 266 116 133 31 165 180 222 332 246 118 240 340 166 142 207 344 213 200 6 183 212 179 112 305 306 229 331 346 68 157 17 256 356 159 92 125 270 263 124 225 170 9 290 255 320 217</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\My_utils\MyEventHandler_T.c</name>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\_testEventHandlers.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 136</file>
+                    <file> 206 219</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 309</file>
+                    <file> 104</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 47</file>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 43 170 293 159 275 263 356 225 256 281 260 138 68 157 85 10 124 17 351 271 284 270 261 41 265 205 92 125 285 290 266 255 9 320 116 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256 240 39 347 275 61 189 352 47 73 281 10 210 140 159 260 126 212 270 125 220 151 226 243 121 290 356 263 68 17 166 92 265 87 204 102 340 77 178 199 330 342 123 107 134 43 351 284 225 116 138 133 31 165 180 222 332 246 118 244 142 207 344 213 200 6 183 179 170 293 9 205 124 157 85 271 41 285 266 261 255 320 217</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\Event\_testEvents.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 100 249</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 234 308 304 331 152 66 346 119 205 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 92 125 284 261 285 290 266 255 287 288 309</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 275 107 39 199 347 61 189 352 47 178 140 210 244 134 290 212 265 126 220 151 226 77 330 342 123 138 351 266 87 204 102 243 73 121 308 288 331 118 346 356 270 256 281 263 68 157 31 179 17 271 261 293 133 165 180 222 332 246 240 340 166 142 207 344 213 200 6 183 234 205 287 309 304 152 119 66 41 92 285 225 260 124 85 10 284 125 255</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\EvHandler\_testEvHandler.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 242 197</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 277</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 318 308 304 331 152 66 346 119 71 284 270 281 263 293 138 68 157 85 10 124 17 261 41 356 225 256 260 351 271 265 275 294 299 288 306</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 39 199 347 10 61 189 352 47 178 140 331 351 210 244 134 284 346 68 85 270 126 220 151 226 77 330 342 123 306 118 157 87 204 102 243 73 121 308 299 212 138 293 31 356 225 263 261 133 165 180 222 332 246 240 340 166 142 207 344 213 200 6 183 179 318 71 294 288 304 152 119 66 281 124 41 265 260 17 256 275 271</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\__TESTS\StateMechanic\State\_testState.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 64 245</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 51 308 304 331 152 66 346 119 303 205 41 293 356 225 263 256 281 260 138 68 157 85 10 124 17 351 271 265 275 270 92 125 284 261 285 290 266 255 287 309 159 306 201 170 9 320 116 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 39 199 347 265 61 189 352 47 178 140 10 210 244 134 290 66 125 260 126 220 151 226 77 330 342 123 306 304 275 87 204 102 243 73 121 308 309 170 152 119 138 351 157 31 179 17 271 261 159 116 133 165 180 222 332 246 118 240 340 166 142 207 344 213 200 6 183 212 51 303 287 201 331 346 356 270 256 281 263 68 85 284 41 293 266 205 92 285 225 124 255 9 320 217</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\My_utils\MyFunctionoid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 328 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 231 351 138 68 157 85 10 124 17 271</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 347 39 61 189 352 47 121 210 107 126 220 151 226 243 140 87 204 102 340 73 138 157 31 179 133 342 165 180 222 332 246 118 244 77 178 199 330 123 134 351 271 124 85 10 166 142 207 344 213 200 6 183 212 231 68 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\applilet2_src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
                 </tool>
             </outputs>
         </file>
@@ -1411,39 +1389,58 @@
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 128 92</file>
+                    <file> 110 80</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 337</file>
+                    <file> 353</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 72</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\applilet2_src\main.c</name>
+            <name>$PROJ_DIR$\My_utils\MyEventHandler_T.c</name>
             <outputs>
                 <tool>
                     <name>ICCV850</name>
-                    <file> 331</file>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 221</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 57</file>
+                    <file> 49</file>
                 </tool>
             </outputs>
         </file>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</name>
-            <tool>ICCV850</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</name>
-            <tool>ICCV850</tool>
-        </forcedrebuild>
+        <file>
+            <name>$PROJ_DIR$\__Unity\UnityAddin.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCV850</name>
+                    <file> 28 133 31 165 180 347 222 352 39 220 102 226 151 47 189 126 118 332 240 340 204 244 140 243 246 342 61 77 178 142 199 207 213 344 330 123 166 107 6 183 212 200 179 134 121 73 87 210 355 190 186 350 8 146 144 163 351 138 68 157 85 10 124 17 271 136 231 148 120 69 217 135 21 9 320 116 203 67 152 66 346 334 127 89 54 164 84 224 58 194 137 109 338 154 149 209 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 138 332 144 246 39 146 352 151 186 85 351 6 58 210 142 183 212 224 133 21 66 109 165 180 340 207 213 204 190 209 135 124 231 217 89 87 355 31 222 118 240 140 342 166 344 200 179 8 350 136 271 157 120 67 320 152 203 347 126 61 189 220 47 102 226 244 243 77 178 73 199 330 123 107 134 121 84 338 148 54 163 68 10 17 69 127 116 334 346 164 194 154 137 149 63</file>
+                </tool>
+            </inputs>
+        </file>
         <forcedrebuild>
             <name>$PROJ_DIR$\My_utils\MyJednotky_templates.c</name>
             <tool>ICCV850</tool>
@@ -1453,11 +1450,19 @@
             <tool>ICCV850</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\My_utils\MyEventHandler_T.c</name>
+            <name>$PROJ_DIR$\__TESTS\Jednotky\_testJednotky.c</name>
+            <tool>ICCV850</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\__TESTS\PrintClass\_testPrintClass.c</name>
             <tool>ICCV850</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\My_utils\MyJednotky_assign.c</name>
+            <tool>ICCV850</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\My_utils\MyEventHandler_T.c</name>
             <tool>ICCV850</tool>
         </forcedrebuild>
     </configuration>
